@@ -1,0 +1,26 @@
+{
+  "name": "pos",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Marcio Reis"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

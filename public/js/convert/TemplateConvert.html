@@ -1,0 +1,28 @@
+<div class="container">
+	<h1>Conversor de Temperatura</h1>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Fahrenheit" ng-model="fahrenheit">
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-success" ng-click="convertFtoC(fahrenheit)">Fahrenheit</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-4">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Celsius" ng-model="celsius">
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-success" ng-click="convertCtoF(celsius)">Celsius</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<h2>{{retorno}}</h2>
+
+
+</div>
